@@ -5,7 +5,7 @@ import Products from './components/Shop/Products';
 import { useSelector } from 'react-redux';
 import Notification from "./components/UI/Notification";
 import { useDispatch } from 'react-redux';
-import { cartItemData } from './components/Redux/cart-UI';
+import { cartItemData } from "./components/Redux/CartItemData";
 
 let initialValue = true;
 function App() {
